@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+    <canvas id="lienzo1" width="600" height="400">
+        <script type="text/javascript">
+        var canvas=document.getElementById("lienzo1");
+        var contexto=canvas.getContext("2d");
+        contexto.lineWidth=2;
+        for(i=0;i<=600;i+=20){
+        contexto.moveTo(0,0);
+       contexto.lineTo(i,400)
+       contexto.stroke();
+        }
+        </script>
+    </canvas>
+    <svg xmlns="http://www.w3c.org/2000/svg" height="400">
+        <rect id="rec1" x="50" y="50" width="300"
+        height="100" fill="red" />
+        <ellipse id="elips1" cx="200" cy="100" rx="50"
+        ry="75" fill="blue" />
+    </svg>
+    <div>
+        <h2>Colocar un video de pagina web</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6Jfk8ic3KVk" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
+    <div>
+        <figure style="float: left">
+        <h2>Insertar otra página</h2>
+        <iframe src="https://www.marca.com/" height="300px" width="1000px">
+        </iframe>
+        </figure>
+    </div>
+    <div>
+        <h2>Leer un PDF para ver</h2>
+    </div>
+</body>
+</html>
