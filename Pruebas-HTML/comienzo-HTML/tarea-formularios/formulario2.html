@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de compras</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/68e2e578c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>Formulario 2</h2>
+
+    <p>Step 1: Your Details</p>
+
+    <fieldset>
+        <p><label>Name         <input type="text" name="nombrecompleto"></label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>Email         <input type="text" name="email"></label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>Phone         <input type="pho" name="phone"></label></p>
+    </fieldset>
+
+    <p>Step 2: Delivery Address</p>
+
+    <fieldset>
+        <p><label>Address    <textarea name="Address" rows="3" cols="50"></textarea></label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>Post Code     <input id="post code" name="post code" type="text" required></label></p>
+    </fieldset>
+    <fieldset>
+        <p><label>Country         <input id="country" name="country" type="text" required></label></p>
+    </fieldset>
+
+    <p>Step 3: Card details</p>
+
+    <fieldset>
+        <p>Card type</p>
+           <input id="visa" name="cardtype" type="radio">
+           <label for="visa"><i class="fa-brands fa-cc-visa"></i>VISA</label>
+           <input id="AmEx" name="cardtype" type="radio">
+           <label for="AmEx"><i class="fa-brands fa-cc-amex"></i>AmEx</label>
+           <input id="Mastecard" name="cardtype" type="radio">
+           <label for="Mastecard"><i class="fa-brands fa-cc-mastercard"></i>Mastecard</label>
+    </fieldset>
+
+    <fieldset>
+        <p><label for="cardnumber">Card Number   </label><input id="cardnumber" name="cardnumber" type="number" required></p>
+    </fieldset>
+
+    <fieldset>
+        <p><label for="secure">Security code  </label><input id="secure" name="secure" type="number" required></p>
+    </fieldset>
+
+    <fieldset>
+        <p><label for="nameoncard">Name on card</label><input id="nameoncard" name="nameoncard" type="text" placeholder="Name on card" required></p>
+    </fieldset>
+<center>
+<button type="BUY IT!">BUY IT!</button>
+</center>
+</body>
+</html>
