@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/68e2e578c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <p><label>Nombre: <input type="text" name="nombre"></label></p>
+    
+    <p><label>Apellidos: <input type="text" name="apellidos"></label></p>
+
+    <p>Sexo:
+
+    <label><input type="radio" name="sexo" value="hombre"> hombre</label>
+
+    <label><input type="radio" name="sexo" value="mujer"> mujer</label>
+
+    </p>
+
+    <p><label>Correo: <input type="text" name="correo" type="text" placeholder=""></label></p>
+
+    <label for="Poblacion">Población: </label>
+      <select name="Población">
+          <option value="Almería">Almería</option>
+          <option value="Cádiz">Cádiz</option>
+          <option value="Córdoba">Córdoba</option>
+          <option value="Granada">Granada</option>
+          <option value="Huelva">Huelva</option>
+          <option value="Jaén">Jaén</option>
+          <option value="Málaga">Málaga</option>
+          <option value="Sevilla">Sevilla</option>
+      </select>
+
+    <p><label>Descripción: <textarea id="Descripcion" name="Descripcion" rows="6" cols="50"></textarea></label></p>
+    
+    </p><label><input type="checkbox" name="info">Deseo recibir información sobre novedades y ofertas</label></p> 
+  
+    </p><label><input type="checkbox" name="info">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label></p> 
+
+    <button type="Enviar">Enviar</button>
+</body>
+</html>
