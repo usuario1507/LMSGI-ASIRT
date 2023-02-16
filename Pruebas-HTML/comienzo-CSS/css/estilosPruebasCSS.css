@@ -1,0 +1,79 @@
+/*Reglas generales para todas las etiquetas */
+*{
+    color:gray;
+    font-style: normal;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+/*Regla para el encabezado h1*/
+h1 {
+    color:blue; 
+    font-size:12px;
+    border-color: rgb(123,234,12);
+    border-style: dotted;
+    border-width: 2px;
+    /* border: 2px dotted rgb(123,234,12);*/
+}
+h1,h2,h3{
+    color:blue;
+}
+div h1{
+    border: none;
+}
+/*Reglas para los párrafos */
+p{
+    font-size:12pt;
+}
+p.clase1{
+    text-decoration: overline;
+    font-size: larger;
+}
+p.clase2{
+    background-color: orange;
+    border:1px solid cyan;
+}
+
+p.groucho{
+    font-style:italic;
+    font-weight: bold;
+}
+
+p.aviso{
+    text-decoration: underline;
+}
+
+p *{
+    color:green;
+    text-align: center;
+    text-decoration: dotted;
+}
+p h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    color: brown;
+}
+/*Ejemplo para ver class e id*/
+.clase{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: yellow;
+}
+
+.ide{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: yellow;
+}
+
+section article p{
+   color:red;}
+section .rojo{
+   color:red;}
+
+section > p{color:red;}
