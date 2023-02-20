@@ -10,8 +10,6 @@ h1 {
     color:blue; 
     font-size:12px;
     border-color: rgb(123,234,12);
-    border-style: dotted;
-    border-width: 2px;
     /* border: 2px dotted rgb(123,234,12);*/
 }
 h1,h2,h3{
@@ -76,4 +74,43 @@ section article p{
 section .rojo{
    color:red;}
 
-section > p{color:red;}
+section p{
+    color: blue;
+}
+p {
+    color: red;
+}
+
+section > h1{
+    color: red;
+}
+
+ul.descendiente > li+li+li{
+    background-color: red;
+}
+
+article p:nth-of-type(2){
+    background-color: rgb(167,187,52);
+}
+
+ul.pintar li:nth-child(odd){
+    background-color: blueviolet;
+}
+ul.pintar li:nth-child(even){
+    background-color: aqua;
+}
+ul.pintar2 li:nth-child(3n){
+    text-decoration: line-through;
+}
+
+li.tachar{
+    text-decoration: line-through;
+}
+
+div.remarcar:first-of-type{
+    background-color: bisque;
+}
+p[lang="es"]{
+    color: blueviolet;
+    background-color: yellow;
+}
