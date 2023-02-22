@@ -3,25 +3,37 @@
     color:gray;
     font-style: normal;
     font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /*Regla para el encabezado h1*/
 h1 {
-    color:blue; 
     font-size:12px;
     border-color: rgb(123,234,12);
+    border-style: dotted;
+    border-width: 2px;
     /* border: 2px dotted rgb(123,234,12);*/
 }
-h1,h2,h3{
-    color:blue;
-}
+/*Regla de encabezado dentro de div */
 div h1{
     border: none;
 }
 /*Reglas para los párrafos */
 p{
-    font-size:12pt;
+    color:green ;
+    text-align: center; 
 }
+/*Reglas especiales de párrafos que tienen clase */
+/*Clase e ID genéricos */
+.clase{
+    color:aqua;
+    text-shadow: 2px;
+}
+#ide{
+    color:blue;
+    text-decoration:wavy;
+}
+/*Clase asociada al párrafo*/
 p.clase1{
     text-decoration: overline;
     font-size: larger;
@@ -40,77 +52,6 @@ p.aviso{
     text-decoration: underline;
 }
 
-p *{
-    color:green;
-    text-align: center;
-    text-decoration: dotted;
-}
-p h1{
-    font-family:'Courier New', Courier, monospace;
-    font-size: larger;
-    color: brown;
-}
-/*Ejemplo para ver class e id*/
-.clase{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    background-color: yellow;
-}
-
-.ide{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    background-color: yellow;
-}
-
-section article p{
-   color:red;}
-section .rojo{
-   color:red;}
-
-section p{
-    color: blue;
-}
-p {
-    color: red;
-}
-
-section > h1{
-    color: red;
-}
-
-ul.descendiente > li+li+li{
-    background-color: red;
-}
-
-article p:nth-of-type(2){
-    background-color: rgb(167,187,52);
-}
-
-ul.pintar li:nth-child(odd){
-    background-color: blueviolet;
-}
-ul.pintar li:nth-child(even){
-    background-color: aqua;
-}
-ul.pintar2 li:nth-child(3n){
-    text-decoration: line-through;
-}
-
-li.tachar{
-    text-decoration: line-through;
-}
-
-div.remarcar:first-of-type{
-    background-color: bisque;
-}
-p[lang="es"]{
-    color: blueviolet;
-    background-color: yellow;
-}
+/*Analizar situación de parentesco*/
+/* section h1{color:red;} */
+section > h1{  color:red;}
