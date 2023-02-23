@@ -31,7 +31,7 @@ p:target {
   }
 
   body{
-    background-color:grey;
+    background-color:rgb(153, 224, 135);
   }
   p{
     color:black;
@@ -41,5 +41,5 @@ div.imagenFondo{
     background-image: url("https://i.blogs.es/debdc9/1629460557_098553_1629460592_portada_normal/840_560.jpeg");
     width:100%;
     height:300px;
-    background-size:auto;
+    background-size:contain;
 }
