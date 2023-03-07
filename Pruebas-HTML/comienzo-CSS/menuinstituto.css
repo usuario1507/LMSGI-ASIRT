@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ nav{
+    width:70%;
+    height: 10%;
+    margin: auto;
+    background-color: white;
+    border-color: red;
+    border-style: dotted;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+ nav ul{
+    list-style: none;
+ }
+
+nav ul li {
+    display: inline-block;
+    width: 16.33%;
+    height: 100%;
+}
+
+nav ul ul{
+    display: none;
+    position: absolute;
+    bottom: auto;
+    background-color: #eee;
+}
+
+nav ul ul li{
+    display: block;
+    width: 100%;
+}
+
+nav ul ul 
+
+nav ul li a{
+    display: block;
+    color:red;
+    text-decoration: none;
+    font-size: ;
+
+}
+nav a:hover{
+    background-color: black;
+    color: gray;
+}
