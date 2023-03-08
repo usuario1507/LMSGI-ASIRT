@@ -22,3 +22,61 @@ li a {
     width:1520px;
     height:770px;
 }
+
+.conteiner1{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img-1{
+    margin-top: 15px;
+    margin-right:5px;
+    width:90px;
+    height:90px;
+}
+
+.img-2{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.img-3{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.primero {
+    margin-bottom:3px;
+    height:100%; 
+}
+
+.Zero {
+    text-align: center;
+    float:right; 
+    width:270px;
+    padding:10px;
+}
+
+.Personas {
+    text-align:Center;
+    float:left;
+    margin-left:170px; 
+    margin-right:270px;
+    width:170px;
+    padding:10px;
+}
+
+.Festival {
+    text-align:Center;
+    float:left;
+    margin-left:160px; 
+    margin-right:170px;
+    width:170px;
+    padding:10px;
+}
