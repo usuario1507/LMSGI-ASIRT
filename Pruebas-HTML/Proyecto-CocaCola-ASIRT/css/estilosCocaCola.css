@@ -33,22 +33,22 @@ li a {
 .img-1{
     margin-top: 15px;
     margin-right:5px;
-    width:90px;
-    height:90px;
+    width:440px;
+    height:440px;
 }
 
 .img-2{
     margin-top: 15px;
     margin-left: 10px;
-    width: 90px;
-    height: 90px;
+    width: 440px;
+    height: 440px;
 }
 
 .img-3{
     margin-top: 15px;
     margin-left: 10px;
-    width: 90px;
-    height: 90px;
+    width: 440px;
+    height: 440px;
 }
 
 .primero {
@@ -59,12 +59,12 @@ li a {
 .Zero {
     text-align: center;
     float:right; 
-    width:270px;
+    width:300px;
     padding:10px;
 }
 
 .Personas {
-    text-align:Center;
+    text-align:center;
     float:left;
     margin-left:170px; 
     margin-right:270px;
