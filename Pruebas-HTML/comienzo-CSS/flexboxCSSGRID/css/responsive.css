@@ -1,0 +1,31 @@
+header, nav, main, footer {
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container {
+    display: grid;
+  }
+  
+  header {
+    background: skyblue;
+    height: 3rem;
+  }
+  
+  nav {
+    background: tomato;
+    height: 12rem;
+  }
+  
+  main {
+    background: aliceblue;
+    height: 20rem;
+  }
+  
+  footer {
+    background: lightgreen;
+    height: 15rem;
+  }
