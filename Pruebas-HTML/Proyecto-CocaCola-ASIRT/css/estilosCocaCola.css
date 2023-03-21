@@ -153,6 +153,7 @@ main{
     float:right; 
     width:300px;
     padding:10px;
+    
 }
 
 .Disfrute {
@@ -162,6 +163,7 @@ main{
     margin-right:270px;
     width:170px;
     padding:10px;
+    
 }
 
 .Juntos {
@@ -171,6 +173,7 @@ main{
     margin-right:170px;
     width:170px;
     padding:10px;
+    
 }
 
 /* Estilos de Cocacola2 */
@@ -179,14 +182,52 @@ main{
     float:left;
     margin-left:170px; 
     margin-right:270px;
-    margin-top:100px;
+    margin-top:120px;
     width:170px;
     padding:10px;
+    background-color: white;
+    color: black;
 }
 
 /* Estilos de Footer */
 footer{
+    margin:auto;
     width:100%;
-    height:25%;
-    background-color: black;
+    height:100%;
+    margin-top: 550px;
+    background-color:black;
+    color:white;
+}
+/* Estilos de Publicidad de Footer */
+.Publicidad{
+    text-align: left;
+    margin-top:400px;
+    margin-left:80px;
+    justify-content: left;
+    align-items: left;
+    padding-top:50px;
+}
+/* Estilos de Cocacola3 de Footer */
+.Cocacola3{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 150px;
+    height: 150px;
+}
+/* Estilos de Cocacolagris de Footer */
+.cocacolagris{
+    margin-top: 0px;
+    margin-left: 750px;
+    width: 150px;
+    height: 50px;
+}
+/* Estilos de Derechos_cocacola de Footer */
+.Derechos_cocacola{
+    text-align: right;
+    margin-top:0px;
+    margin-right:120px;
+    margin-left:80px;
+    justify-content: right;
+    align-items: right;
+    padding-top:6px;
 }
