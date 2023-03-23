@@ -83,6 +83,7 @@ main section div.container1{
     float:right; 
     width:300px;
     padding:10px; 
+    margin-right:110px;
 }
 
 .Personas {
@@ -98,7 +99,7 @@ main section div.container1{
     text-align:Center;
     float:left;
     margin-left:160px; 
-    margin-right:170px;
+    margin-right:140px;
     width:170px;
     padding:10px;
 }
@@ -121,6 +122,10 @@ main section div.container1{
     width: 1600px;
     font-weight: normal;
     font-weight: 600;
+}
+/* Estilos de la sección segundas_imágenes */
+main section.Segundas_imágenes{
+    display: block;
 }
 /* Estilos de las imágenes 4,5 y 6*/
 
@@ -215,7 +220,7 @@ footer{
 /* Estilos de Publicidad de Footer */
 .Publicidad{
     text-align: left;
-    margin-top:100px;
+    margin-top:5px;
     margin-left:80px;
     justify-content: left;
     align-items: left;
@@ -238,10 +243,12 @@ footer{
 /* Estilos de Derechos_cocacola de Footer */
 .Derechos_cocacola{
     text-align: right;
-    margin-top:0px;
-    margin-right:120px;
+    margin-right: 120px;
+    margin-top:5px;
     margin-left:80px;
     justify-content: right;
     align-items: right;
+    position:relative;
+    top:-150px;
     
 }
