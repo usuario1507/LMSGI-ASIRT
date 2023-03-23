@@ -118,6 +118,8 @@ main{
     align-items: center;
     color:white;
     width: 1600px;
+    font-weight: normal;
+    font-weight: 600;
 }
 /* Estilos de las imágenes 5,5 y 6*/
 
@@ -173,7 +175,6 @@ main{
     margin-right:170px;
     width:170px;
     padding:10px;
-    
 }
 
 /* Estilos de Cocacola2 */
@@ -188,7 +189,6 @@ main{
     background-color: white;
     color: black;
 }
-
 /* Estilos de Footer */
 footer{
     margin:auto;
