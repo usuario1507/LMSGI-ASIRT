@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Pizzas La Serrana</title>
+    <link>https://barcapizza.com/</link>
+    <description>Pizzeria</description>
+    <item>
+      <title>Pizza Boloñesa</title>
+      <link>https://barcapizza.com/carta-barcapizza.htm#carte-pizzas</link>
+      <description>Orégano, Tomate, Queso y Boloñesa</description>  
+    </item>
+    <item>
+      <title>Pizza Margarita</title>
+      <link>https://barcapizza.com/carta-barcapizza.htm#carte-pizzas</link>
+      <description>Orégano, Tomate y Queso</description>  
+    </item>
+    <item>
+      <title>Pizza Barbacoa</title>
+      <link>https://barcapizza.com/carta-barcapizza.htm#carte-pizzas</link>
+      <description>Queso, Pollo, Cebolla, Jamón y Salsa Barbacoa</description>  
+    </item>
+    <item>
+      <title>Pescadore</title>
+      <link>https://barcapizza.com/carta-barcapizza.htm#carte-pizzas</link>
+      <description>Orégano, Tomate, Queso, Gambas, Mejillones, Berberecho, Atún y Ajo</description>
+    </item>
+    <item>
+      <title>Pizza Caprichosa</title>
+      <link>https://barcapizza.com/carta-barcapizza.htm#carte-pizzas</link>
+      <description>Orégano, Tomate, Queso, Jamón, Champiñones y Alcachofa</description>
+    </item>
+  </channel>
+</rss>
