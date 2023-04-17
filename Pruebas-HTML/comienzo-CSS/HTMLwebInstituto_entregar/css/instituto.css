@@ -383,3 +383,50 @@ img{
     height:100%;
     object-fit: fill;
 }
+
+@media screen and (max-width:800px){
+    body{
+        height: 2800px;
+    }
+    header{
+        background-color:lightgrey;
+        height:15%;
+    }
+    header div.encabezado{
+        flex-direction: column;
+        -ms-flex-align: start;
+    }
+    header nav{
+        display: none;
+    }
+    header div.encabezado div.buscar{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+        height: 80%;
+    }
+    main section{
+        width:100%;
+    }
+    main aside{
+        width:100%;
+    }
+    footer{
+        display: flex;
+        flex: column;
+        height: 15%;
+    }
+    footer div.contenido{
+        flex-direction: column;
+    }
+    footer div.calendario{
+        width: 100%;
+    }
+    footer div.Encuentranos{
+        width: 100%;
+    }
+    footer div.enlaces{
+        width:100%;
+    }
+}

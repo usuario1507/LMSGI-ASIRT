@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: violet;
+}
+
+/* Flexbox */
+div.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* create four equal columns */
+
+
+
+
+
+/* Cambio el column para que */
+@media screen and (max-width: 992px)
+  body{
+    background-color:orange;
+  }

@@ -25,20 +25,31 @@ div.tres{
     background-color: green;
 }
 
-@media screen and (max-width: 900px) {
+@media  (max-width: 700px) {
     body {
-        background-color: orange;
+        background-color: blue;
+    }
+    div.row div.column {
+        flex: 50%;
+    }
+    div.row div.column2 {
+        flex: 25%;
+    }
+    .verde{
+        background-color: gray;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media print , (min-width: 700px) and (max-width:992px) {
     body {
-        background-color: greenyellow;
-        display: flex;
-        flex: column wrap;
+        background-color: antiquewhite;
     }
-    div{
+    div.row{
         display: block;
         width: 100%;
+        flex-direction: column;
+    }
+    .verde{
+        background-color: green;
     }
 }
