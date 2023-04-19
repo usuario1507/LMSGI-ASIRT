@@ -1,16 +1,16 @@
-/* ---- Estilos b�sicos ---------------------------------------------------- */
+/* ---- Estilos básicos ---------------------------------------------------- */
 *{
   margin:0px;
   padding:0px;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   padding: 0;
   background: #F2F5FE url("../imagenes/fondo.gif") 0 0 repeat-x;
   font: 70%/160% "verdana", sans-serif;
   color: #192666;
+  display: flex;
 }
 
 a {
@@ -61,13 +61,12 @@ ul, ol {
 #contenedor {
   width:770px;
   margin: 50px auto 0 auto;
-  display:flex;
 }
 
 #cabecera {
   width: 770px;
-  position: relative;
   height: 100px;
+  position: relative;
   margin: 0;
   padding: 0;
   background: #233C9B url("../imagenes/cabecera.jpg") no-repeat;
@@ -89,7 +88,7 @@ ul, ol {
 }
 
 #contenido #secundario {
-  float: left;
+  display: grid;
   width: 200px;
   margin: 15px 0 0 0;
   padding: 0;
@@ -138,7 +137,7 @@ ul, ol {
   border: none;
 }
 
-/* ---- Men� --------------------------------------------------------------- */
+/* ---- Menú --------------------------------------------------------------- */
 #menu {
   background: #192666;
   margin: 0 5px;
@@ -158,8 +157,8 @@ ul, ol {
 }
 
 #menu ul li a {
-  display: block;
-  position: relative;
+  display: flex;
+  justify-content: center;
   padding: 5px 15px;
   border: 0;
   background: #253575;
@@ -218,14 +217,14 @@ ul, ol {
 #contenido .info span.comentarios { background: url("../imagenes/icono_comentarios.gif") 0 50% no-repeat; margin-left: 8px; }
 
 #contenido #secundario h3 {
-  padding: 10px 0 10px 10px;
+  padding-top: 10px 0 10px 10px;
   margin-top: 20px;
   background: #A0B9F3;
   color: #192666;
 }
 
 #contenido #secundario #sobremi img {
-  float: left;
+  justify-content: left;
   margin: 4px 5px 0 0;
 }
 
@@ -249,7 +248,7 @@ ul, ol {
 }
 
 #contenido #secundario li a {
-  display: block;
+  display: grid;
   padding: 3px 0 3px 22px;
   background: url("../imagenes/icono_elemento.gif") 8px no-repeat;
   text-decoration: none;
@@ -272,4 +271,13 @@ ul, ol {
   position: absolute;
   top: 10px;
   left: 40px;
+}
+
+/* Medidas para tamaño tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+/* Medidas para tamaño móvil */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
 }
