@@ -1,0 +1,28 @@
+h1 {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  color: darkorange;
+  background-color: darkorange;
+}
+
+p {
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  color: black;
+}
+avisited {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: darkorange;
+}
+
+div {
+  @inclue;
+}/*# sourceMappingURL=prueba.css.map */

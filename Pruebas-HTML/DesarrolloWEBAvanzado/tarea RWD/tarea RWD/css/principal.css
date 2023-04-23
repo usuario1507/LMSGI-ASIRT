@@ -274,10 +274,67 @@ ul, ol {
 }
 
 /* Medidas para tamaño tablet */
-@media (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width:600px) and (max-width:1000px){
+    header{
+      height: 100%;
+    }
 
+    #contenido .articulo {
+      clear: both;
+      margin: 2;
+      padding: 10px;
+      background: url("../imagenes/fondo_articulo.jpg") no-repeat;
+    }
+    
+    #contenido .articulo img {
+      width: 1000px;
+    }
+    
+    #contenido .articulo h2 {
+      margin: 0 -20px;
+      padding: 10px;
+      background: 1000px;
+      color: #192666;
+    }
+    
+    #contenido .info {
+      margin: 20px 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #DEE5FD;
+      color:#6685CC;
+    }
+
+    #menu {
+      color: green;
+      margin: 0 5px;
+      padding: 10px 0 0 0;
+    }
+    
+    #menu ul {
+      margin: 0 10px;
+      padding: 0;
+      list-style:none;
+    }
+    
+    #menu ul li {
+      margin: 0 5px 0 0;
+      padding: 0;
+      float:left;
+    }
+    
+    #menu ul li a {
+      display: flex;
+      justify-content: center;
+      padding: 5px 15px;
+      border: 0;
+      background: green;
+      color: #B5C4E3;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
 }
 /* Medidas para tamaño móvil */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (max-width:600px){
 
 }
