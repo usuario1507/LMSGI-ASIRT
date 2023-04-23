@@ -335,6 +335,26 @@ ul, ol {
     }
 }
 /* Medidas para tamaño móvil */
-@media screen and (max-width:600px){
+@media screen and (max-width:600px){ 
+.menu{
+  width:100%;
+  background-color: blue;
+  overflow: auto;
+}
 
+.menu ul {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu ul:hover {
+  background-color: blue;
+}
+
+.active {
+  background-color: #04AA6D;
+}
 }
