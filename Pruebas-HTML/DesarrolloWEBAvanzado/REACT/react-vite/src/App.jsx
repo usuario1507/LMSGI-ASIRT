@@ -9,8 +9,11 @@ function App() {
 
   return (
     <div>
+      <p> Creando cabeceras en React </p>
     <Cabecera />
     <Cabecera2 />
+
+      <p> Creando una lista en React </p>
     </div>
   )
 }
