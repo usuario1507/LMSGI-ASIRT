@@ -5,7 +5,8 @@
              let contador=0;
              for(let i=0;i<frase.length;i++){
                 if(frase.substr(i,busqueda.length)==busqueda){
-                    contador
+                    contador++;
+                    i+=busqueda.lenght;
                 }
              }
     }
