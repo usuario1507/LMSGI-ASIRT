@@ -7,9 +7,9 @@ export const Cabecera = () => {
 }
 
 
-export const Cabecera2 = () => {
+export const Cabecera2 = ({mensaje="mensaje por defecto",otro}) => {
     return (
-      <h1>Otra cosa</h1>
+      <h1>{props.mensaje}</h1>
     )
   }
 

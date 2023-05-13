@@ -1,21 +1,21 @@
 // Caso de problema asíncrono con datos externos
-// fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
-//     .then(data=>data.json())
-//     .then (data=> console.log(data))
-//     .catch(error =>  console.log(error));
-// const pokemon = {
-//     numero: data.id,
-//     img: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png`,
-//     imgJuego: data.sprites.front_default,
-//     imgCvg: data.sprites.other.dream_world.front_default,
-//     nombre: data.name,
-//     experiencia: data.base_experience,
-//     hp: data.stats[0].base_stat,
-//     ataque: data.stats[1].base_stat,
-//     defensa: data.stats[2].base_stat,
-//     especial: data.stats[3].base_stat,
-// }
-// console.log(pokemon);
+ fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+     .then(data=>data.json())
+     .then (data=> console.log(data))
+     .catch(error =>  console.log(error));
+ const pokemon = {
+    numero: data.id,
+     img: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png`,
+     imgJuego: data.sprites.front_default,
+     imgCvg: data.sprites.other.dream_world.front_default,
+     nombre: data.name,
+     experiencia: data.base_experience,
+     hp: data.stats[0].base_stat,
+     ataque: data.stats[1].base_stat,
+     defensa: data.stats[2].base_stat,
+     especial: data.stats[3].base_stat,
+ }
+ console.log(pokemon);
 
 //FUNCIÓN PARA LEER 1 POKEMON
 const fetchData = async (id) => {
@@ -99,3 +99,23 @@ const fetchData = async (id) => {
       </div>
       `;
   };
+
+// Generar un array de números aleatorios
+public class Principal {
+ 
+  public static void main(String[] args) {
+         
+    // Creamos un objeto de la clase Random
+    //para generar id de pokemon aleatorios aleatorios
+    Random aleatorio = new Random(id);
+     
+    // Declaramos una variable para almacenar
+    // el número aleatorio entre 0 y 100, ambos incluidos
+    id = aleatorio.nextInt(id);
+     
+    // Mostramos por pantalla el id del  pokemon generado
+    System.out.println("El id del pokemón es " + id);
+  }
+
+}
+
