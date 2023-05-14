@@ -101,21 +101,17 @@ const fetchData = async (id) => {
   };
 
 // Generar un array de números aleatorios
-public class Principal {
- 
-  public static void main(String[] args) {
-         
-    // Creamos un objeto de la clase Random
-    //para generar id de pokemon aleatorios aleatorios
-    Random aleatorio = new Random(id);
-     
-    // Declaramos una variable para almacenar
-    // el número aleatorio entre 0 y 100, ambos incluidos
-    id = aleatorio.nextInt(id);
-     
-    // Mostramos por pantalla el id del  pokemon generado
-    System.out.println("El id del pokemón es " + id);
-  }
-
+let vector=[],contador=0,encontrado=false,valor;
+while (contador<5){
+valor=Math.floor(Math.random()*1000)+1;
+console.log(valor);
+for(let j=0;j<vector.length;j++){
+if(vector[j]==valor) encontrado=true;
 }
-
+if (!encontrado){
+vector[contador]=valor;
+contador++;
+encontrado=false;
+}
+}
+console.log(vector);

@@ -10,3 +10,48 @@ th{
 table img{
     width:200px;
 }
+
+@media screen and (max-width:600px){
+    table{
+        border-collapse:collapse;
+    }
+    td{
+        border:1px solid black;
+    }
+    th{
+        border:1px solid black;
+    }
+    table img{
+        width:200px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1000px){
+    table{
+        border-collapse:collapse;
+    }
+    td{
+        border:1px solid black;
+    }
+    th{
+        border:2px solid greenyellow;
+    }
+    table img{
+        width:200px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    table{
+        border-collapse:collapse;
+    }
+    td{
+        border:1px solid black;
+    }
+    th{
+        border:2px solid brown;
+    }
+    table img{
+        width:200px;
+    }
+}
