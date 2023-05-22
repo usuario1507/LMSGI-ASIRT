@@ -1,11 +1,11 @@
 import React from 'react'
 import { Form } from './Hooks'
-import Rutas from './rutas'
+import RutasMenu, { RutaOutlet } from './RutasMenu'
 
 const ReactAvanzado = () => {
   return (
     <>
-    <Rutas/>
+    <RutaOutlet/>
     </>
   )
 }
