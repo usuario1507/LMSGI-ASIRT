@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Formulario que hace la acción normal</h2>
+   <form action="#">
+    <button type="submit">Submit</button>
+   </form> 
+<script>
+   function stopAction(evt) {
+     evt.preventDefault(); // Para la ejecución
+     alert('Has pulsado el botón');
+     evt.submit(); 
+}
+</script>
+
+<h2>Cambiar texto del botón</h2>
+</body>
+</html>

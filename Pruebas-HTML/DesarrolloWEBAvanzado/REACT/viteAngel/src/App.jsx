@@ -1,14 +1,14 @@
 
 // import './App.css'
 import './app.css';
-import Header from './componentes/header'
+import ReactAvanzado from './componentes/reactAvanzado';
 
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <ReactAvanzado />
     </>
   )
 }
