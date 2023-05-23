@@ -1,11 +1,14 @@
 import React from 'react'
+import { Section } from './Section'
+import { Aside } from './Aside'
+import './main.css';
 
-const Main = () => {
+export const Main = () => {
   return (
-    <div>
-      
-    </div>
+    <main>
+    <Section />
+    <Aside />
+    </main>
   )
 }
-
 export default Main
