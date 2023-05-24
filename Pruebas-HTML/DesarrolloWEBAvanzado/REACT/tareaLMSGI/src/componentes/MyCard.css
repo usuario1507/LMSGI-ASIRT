@@ -1,9 +1,9 @@
-.rojo{
-    border:3px solid orange;
+.naranja{
+    background-color: orange;
 }
 .azul{
-    border:3px dotted green;
+    background-color: blue;
 }
 .verde{
-    border:3px dashed blue;
+    background-color: green;
 }

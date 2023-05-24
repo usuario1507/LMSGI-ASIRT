@@ -5,9 +5,9 @@ import MyCard from './MyCard'
 export const Section = () => {
   return (
     <section>
-        <MyCard color="naranja"/>
-        <MyCard color="verde"/>
-        <MyCard color="azul"/>
+        <MyCard imagen="/img/carousel_24-min.png" titulo="Company" color="naranja"/>
+        <MyCard imagen="/img/clientes.jpg" titulo="Services" color="verde"/>
+        <MyCard imagen="/img/servicios.jpg" titulo="Clients" color="azul"/>
     </section>
   )
 }
