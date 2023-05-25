@@ -29,11 +29,30 @@ nav{
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  nav ul li a:hover {
-    background-color: lightslategrey;
-  }
-  
-  nav ul li a:active {
-    background-color: #04AA6D;
+
+  @media screen and (max-width:600px){
+    nav ul {
+        background-color: orange;
+    }
+    p.Home{
+      display:none;
+    }
+    p.Company{
+      display:none;
+    }
+    p.Services{
+      display:none;
+    }
+    p.Showcase{
+      display:none;
+    }
+    p.Support{
+      display:none;
+    }
+    p.Privacy{
+      display:none;
+    }
+    p.Contact{
+      display:none;
+    }
   }
