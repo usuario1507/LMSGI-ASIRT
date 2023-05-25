@@ -2,3 +2,9 @@ section{
     display:flex;
     flex:row nowrap;
 }
+
+@media screen and (min-width:800px){
+    section{
+        flex:100%;
+    }  
+}
