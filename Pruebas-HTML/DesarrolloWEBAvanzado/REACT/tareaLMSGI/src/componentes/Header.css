@@ -21,4 +21,7 @@ header{
         background-position: center;
         background-size:contain, cover;
     }
+    .header-img {
+        display: none;
+    }
 }
